@@ -19,7 +19,7 @@ int opc = 0;
 double valor1, valor2, resultado;
 while (opc!=5){
     
-   opc = Integer.parseInt(JOptionPane.showInputDialog("Digite uma opção:\n 1- somar\n 2- subtrair\n 3- Multiplicar\n 4- Dividir\n 5- Sair", JOptionPane.INFORMATION_MESSAGE));
+   opc = Integer.parseInt(JOptionPane.showInputDialog("Digite uma opção:\n 1- Somar\n 2- Subtrair\n 3- Multiplicar\n 4- Dividir\n 5- Sair", JOptionPane.INFORMATION_MESSAGE));
    if(opc==5){
       
       System.exit(0); 
